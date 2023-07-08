@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.contact {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    background: #ccc;
+    border-radius: 5px;
+}
+.contact input {
+    background: #fff;
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #555;
+}
+textarea {
+    background: #fff;
+    width: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #555;
+}
+button {
+    padding: 7px 20px;
+    background:#fff;
+    box-shadow: 4px 4px 5px #fff;
+    border: none;
+    outline: 2px solid black;
+    outline-offset: -1px;
+    border-radius: 5px;
+}

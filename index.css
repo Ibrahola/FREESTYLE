@@ -1,0 +1,51 @@
+
+div{
+    clear: both;
+    position: relative;
+}
+img{
+    position: absolute;
+}
+.two{
+    top: 50px;
+    left: 50px;
+}
+.one{
+    z-index: 1;
+}
+
+button {
+    float: right;
+}
+
+ul {
+    display: none;
+    transition: all 2s linear;
+}
+ul li {
+    clear: both;
+    background: #000;
+    margin: 20px;
+    padding: 20px;
+    transition: all 2s linear;
+    
+}
+ul li a {
+    text-decoration: none;
+    transition: all 2s linear;
+
+}
+.hide{
+    height: 312px;
+    transition: all 2s linear;
+    display: block;
+}
+
+p {
+    transition: all 2s ease-out;
+}
+
+p:hover{
+    transform: translateX(100px);
+    color: red;
+}
